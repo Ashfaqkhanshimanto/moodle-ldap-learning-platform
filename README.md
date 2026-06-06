@@ -39,16 +39,53 @@ The goal was to create an internal company-style learning platform where users c
 
 ## Screenshots
 
-Screenshots will be added in the `screenshots` folder.
+### 1. Moodle Login Page
 
-Planned screenshots:
+This screenshot shows the deployed TED Moodle site accessible from the browser through VirtualBox NAT port forwarding.
 
-1. Moodle login page
-2. Moodle admin dashboard
-3. LDAP authentication settings
-4. Active Directory test user
-5. Successful Moodle login with domain user
-6. Backup script or backup folder
+![Moodle Login Page](screenshots/01-moodle-login-page.png)
+
+### 2. Moodle Admin Dashboard
+
+This screenshot shows the Moodle dashboard after successful login.
+
+![Moodle Admin Dashboard](screenshots/02-moodle-admin-dashboard.png)
+
+### 3. LDAP Server Settings
+
+This screenshot shows Moodle LDAP configuration connected to the Windows Server domain controller.
+
+![LDAP Settings](screenshots/03-ldap-settings.png)
+
+### 4. Active Directory Users
+
+This screenshot shows the Active Directory users and LDAP bind account created inside the `initech.local` domain.
+
+![Active Directory User](screenshots/04-active-directory-user.png)
+
+### 5. LDAP Test Successful
+
+This screenshot shows Moodle successfully connecting to the LDAP server.
+
+![LDAP Test Successful](screenshots/05-ldap-test-successful.png)
+
+### 6. Domain User Moodle Login
+
+This screenshot shows successful Moodle login using an Active Directory employee account through LDAP.
+
+![Domain User Moodle Login](screenshots/06-domain-user-moodle-login-profile.png)
+
+### 7. Moodle Backup Files
+
+This screenshot shows Moodle database, Moodle data, and Moodle code backup files created on the Ubuntu server.
+
+![Moodle Backup Files](screenshots/07-moodle-backup-files.png)
+
+### 8. Automated Cron Backup
+
+This screenshot shows the cron job configured to run the Moodle backup script automatically every day.
+
+![Cron Backup Schedule](screenshots/08-cron-backup-schedule.png)
 
 ## What I Learned
 
